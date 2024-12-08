@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="w-full h-[100px] bg-[#FBEBB5] text-[#FAFAFA] flex">
+    <div className="w-full h-[100px] bg-transparent text-[#FAFAFA] flex">
       <div className="flex-grow h-[150px] text-[#000000] pt-[38px] pl-[20px] space-x-20">
         <Link to="/home" className="w-[48px] h-[24px] font-poppins font-medium text-base text-2xl]">
           Home
